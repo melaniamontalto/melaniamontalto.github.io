@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    background-color: #bbbbbb;
+    justify-content: center;
+}
+
+@font-face{
+    font-family: "Nombreyapellido";
+    src: url("fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: "Cargo";
+    src: url("fonts/PlayfairDisplay-MediumItalic.ttf") format('truetype');
+}
+
+.NombreyApellido{
+    padding-top: 5vh;
+    font-family: "Nombreyapellido";
+    color: #191919;
+    text-align: left;
+    padding-left: 5%;
+    margin: 0;}
+
+.cargo{
+    font-family: "Cargo";
+    text-align: left;
+    padding-left: 5%;
+    margin: 0;
+    color: #9C98FD;}
+
+
+.telefono {
+    padding-top: 2vh;
+    font-family: "Nombreyapellido";
+    color: #191919;
+    text-align: left;
+    padding-left: 5%;
+    margin: 0;}
+
+
+
+#col1 {
+   background-color: #191919;
+       
+}
+
+
+#col2 {
+    background-color: #ffff;
+}
+#col3{
+    background-color: #ffff;
+}
+
+
+.fab {
+    color: #9C98FD;
+    font-size: 170%;
+    text-align: left;
+    padding-left: 5%;
+    transition: color 0.3s;
+
+}
+.fab:hover{
+    color: #d5f530;
+}
